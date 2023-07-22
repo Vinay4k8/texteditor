@@ -24,10 +24,10 @@ export const TextForm = (props) => {
             <label htmlFor="exampleFormControlTextarea1" className="form-label"><h1>Enter text for operations</h1></label>
             <textarea value={text} onChange={handleOnChange} className={`form-control ${props.mode==="light"?"":"light-card"}`} id="exampleFormControlTextarea1" rows="10"></textarea>
         </div>
-        <button onClick={handleOnUpper} className='btn mx-2'>convert to Uppercase</button>
-        <button onClick={handleOnLower} className='btn mx-2'>convert to Lowercase</button>
-        <button onClick={handleOnCopy} className='btn mx-2'><i className="fa-regular fa-copy"></i></button>
-        <button onClick={handleOnClear} className='btn mx-2'>Clear</button>
+        <button onClick={handleOnUpper} className='btn mx-2 mt-1'>convert to Uppercase</button>
+        <button onClick={handleOnLower} className='btn mx-2 my-1'>convert to Lowercase</button>
+        <button onClick={handleOnCopy} className='btn mx-2 my-1'><i className="fa-regular fa-copy"></i></button>
+        <button onClick={handleOnClear} className='btn mx-2 my-1'>Clear</button>
         <div>
             <h1>Your text summary</h1>
             <p>{text.replace(/ /g,"").length} characters, {text.split(" ").length-1} words</p>
