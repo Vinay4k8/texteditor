@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Vinay4k8/texteditor/static/css/main.0b399266.css",
-    "main.js": "/Vinay4k8/texteditor/static/js/main.d9f2992d.js",
-    "index.html": "/Vinay4k8/texteditor/index.html",
-    "main.0b399266.css.map": "/Vinay4k8/texteditor/static/css/main.0b399266.css.map",
-    "main.d9f2992d.js.map": "/Vinay4k8/texteditor/static/js/main.d9f2992d.js.map"
+    "main.css": "/texteditor/static/css/main.0b399266.css",
+    "main.js": "/texteditor/static/js/main.d9f2992d.js",
+    "index.html": "/texteditor/index.html",
+    "main.0b399266.css.map": "/texteditor/static/css/main.0b399266.css.map",
+    "main.d9f2992d.js.map": "/texteditor/static/js/main.d9f2992d.js.map"
   },
   "entrypoints": [
     "static/css/main.0b399266.css",
